@@ -1,0 +1,10 @@
+set afterends
+set autoindent
+set backup
+set backupdir /home/matheus/.nanobackups
+set linenumbers
+set nohelp
+set numbercolor bold,normal,normal
+set smarthome
+set tabsize 4
+set tabstospaces
