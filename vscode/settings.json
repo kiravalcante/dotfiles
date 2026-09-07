@@ -1,0 +1,21 @@
+{
+    "workbench.startupEditor": "none",
+    "update.showReleaseNotes": false,
+    "editor.fontFamily": "Iosevka",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 18,
+    "editor.tabSize": 4,
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.colorTheme": "Tokyo Night",
+    "workbench.iconTheme": "icons",
+    "workbench.tree.indent": 24,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "github.copilot.nextEditSuggestions.enabled": false
+}

@@ -2,7 +2,6 @@ export ZSH="$HOME/.oh-my-zsh"
 export LANG=en_US.UTF-8
 
 ZSH_THEME="agnoster"
-ENABLE_CORRECTION="true"
 HIST_STAMPS="dd.mm.yyyy"
 
 zstyle ':omz:update' mode reminder
