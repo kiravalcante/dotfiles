@@ -1,0 +1,147 @@
+{
+  "logo": {
+    "type": "builtin",
+    "source": "debian",
+    "color": {
+      "1": "red",
+      "2": "red"
+    },
+    "padding": {
+      "top": 2,
+      "left": 2,
+      "right": 2
+    }
+  },
+
+  "display": {
+    "separator": "",
+    "color": {
+      "keys": "blue",
+      "title": "white",
+      "output": "white",
+      "separator": "white"
+    },
+    "brightColor": true,
+    "key": {
+      "type": "both",
+      "width": 18
+    },
+    "size": {
+      "binaryPrefix": "iec",
+      "ndigits": 2
+    },
+    "percent": {
+      "type": ["num", "bar"]
+    },
+    "bar": {
+      "charElapsed": "▰",
+      "charTotal": "▱",
+      "borderLeft": "[",
+      "borderRight": "]",
+      "width": 10
+    }
+  },
+
+  "modules": [
+    {
+      "type": "title",
+      "color": {
+        "user": "blue",
+        "at": "white",
+        "host": "blue"
+      }
+    },
+    {
+      "type": "separator",
+      "string": "━",
+      "times": 34,
+      "outputColor": "black"
+    },
+
+    {
+      "type": "custom",
+      "format": "╭─ SYSTEM ───────────────────────────────────────────╮",
+      "outputColor": "magenta"
+    },
+
+    { "type": "os",       "key": "System", "keyIcon": "  󰍹 " },
+    { "type": "uptime",   "key": "Uptime", "keyIcon": "   " },
+    { "type": "packages", "key": "Packages", "keyIcon": "   " },
+    { "type": "shell",    "key": "Shell", "keyIcon": "   " },
+
+    {
+      "type": "custom",
+      "format": "╰────────────────────────────────────────────────────╯",
+      "outputColor": "magenta"
+    },
+
+    "break",
+
+    {
+      "type": "custom",
+      "format": "╭─ DESKTOP ───────────────────────╮",
+      "outputColor": "magenta"
+    },
+
+    { "type": "de",       "key": "Desktop", "keyIcon": "   " },
+    { "type": "wm",       "key": "WM", "keyIcon": "   " },
+
+    {
+      "type": "custom",
+      "format": "╰─────────────────────────────────╯",
+      "outputColor": "magenta"
+    },
+
+    "break",
+
+    {
+      "type": "custom",
+      "format": "╭─ HARDWARE ───────────────────────────────────────────────────────╮",
+      "outputColor": "magenta"
+    },
+
+    { "type": "cpu",    "key": "Processor", "keyIcon": "   ","showPeCoreCount": true },
+    { "type": "memory", "key": "Memory", "keyIcon": "   ","percent": { "type": ["num", "bar"] } },
+    { "type": "swap",   "key": "Swap", "keyIcon": "   ", "percent": { "type": ["num", "bar"] } },
+    { "type": "disk",   "key": "Disk", "keyIcon": "   ", "folders": "/", "percent": { "type": ["num", "bar"] } },
+    { "type": "battery", "key": "Battery", "keyIcon": "   ", "percent": { "type": ["num", "bar"] } },
+
+    {
+      "type": "custom",
+      "format": "╰──────────────────────────────────────────────────────────────────╯",
+      "outputColor": "magenta"
+    },
+
+    "break",
+
+    {
+      "type": "custom",
+      "format": "╭─ DATE ───────────────────────────────────╮",
+      "outputColor": "magenta"
+    },
+
+    { "type": "datetime", "key": "Date", "keyIcon": "   ", "format": "{weekday}, {day-pretty}/{month-pretty}/{year} | {hour-pretty}:{minute-pretty}" },
+
+    {
+      "type": "custom",
+      "format": "╰──────────────────────────────────────────╯",
+      "outputColor": "magenta"
+    },
+
+    "break",
+
+    {
+      "type": "custom",
+      "format": "╭─────────────────╮",
+      "outputColor": "magenta"
+    },
+    
+    { "type": "colors", "paddingLeft": 2, "symbol": "circle" },
+
+    {
+      "type": "custom",
+      "format": "╰─────────────────╯",
+      "outputColor": "magenta"
+    },
+  ]
+}
